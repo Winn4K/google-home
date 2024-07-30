@@ -1,0 +1,35 @@
+.container {
+    display: grid;
+    grid-auto-flow: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.alignCenter {
+    justify-self: center;
+}
+
+.logoGogle {
+    margin: 200px 0px 0px 0px;
+}
+
+.gapInferior {
+    margin-bottom: 20px;
+}
+
+.inputGoogle {
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    border-radius: 30px;
+    padding: 7px;
+    border-color: #E3E3E3;
+    border-width: 2px;
+    width: 600px;
+    justify-content: space-between;
+}
+
+.inputGoogleIcons {
+
+}

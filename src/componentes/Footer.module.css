@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+}
+
+.footerFont {
+    color: #707070;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bgCinza {
+    background-color: #F2F2F2;
+}
+
+.borderbt {
+    border-bottom: solid 1px #DADCE0;
+}
+
+.textLeft {
+    text-align: left;
+    margin-left: 30px;
+    margin: 0;
+}
+
+.paddingFooter {
+    padding: 10px 30px 10px 30px;   
+}
+
+.footerInferior {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}

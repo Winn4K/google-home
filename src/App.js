@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import MenuSuperior from './componentes/MenuSuperior';
+import LogoGoogle from './componentes/LogoGoogle';
+import InputGoogle from './componentes/InputGoogle';
+import Botao from './componentes/Botao';
+import CheckUpPrivacidade from './componentes/CheckUpPrivacidade';
+import Footer from './componentes/Footer';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <MenuSuperior/>
+      <LogoGoogle/>
+      <InputGoogle/>
+      <div className='AppBotoesContent'>
+        <Botao text='Pesquisa Google'/>
+        <Botao text='Estou com sorte'/>
+      </div>
+      <CheckUpPrivacidade/>
+      <Footer/>
     </div>
   );
 }

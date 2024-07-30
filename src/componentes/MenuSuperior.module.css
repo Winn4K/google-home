@@ -1,0 +1,25 @@
+.headerFont {
+    color: #707070;
+}
+
+.headerListStyle {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.headerListStyle img {
+    display: block;
+    margin: auto;
+}
+
+.HeaderEndAlign {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 15px 0px 0px;
+}
