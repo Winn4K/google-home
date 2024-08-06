@@ -1,6 +1,6 @@
 # Home do Google com React
 
-projeto de criação de um mini E-commerce com React.js, Javascript e CSS, para aprendizado próprio
+Repliquei a tela principal do google para testar minhas habilidades com React, HTML e CSS
 
 ### Home
 ![image](https://github.com/user-attachments/assets/1367d045-6bb7-40b3-892b-34e3a99986fa)
